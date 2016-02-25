@@ -27,3 +27,7 @@ that, I really don't know what else you could do. Hopefully someone more knowled
 #### I don't know if my drive supports any of those things!
 
 You're in luck! My script will check that for you. 
+
+# Warranty:
+
+You don't get one. If you break things it's your fault, not mine!
