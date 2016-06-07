@@ -38,9 +38,9 @@ function main() {
     # Wipe the drive using hdparm, quieted because it doesn't
     # actually give much useful information
     echo "Setting user password"
-    hdparm -q --user-master u --security-set-pass $spass $dev
+    hdparm --user-master u --security-set-pass $spass $dev
     echo "Erasing"
-    time hdparm -q --user-master u --security-erase $spass $dev
+    time hdparm --user-master u --security-erase $spass $dev
 
     # Check to make sure hdparm didn't fail outright
     if [ $? -ne 0 ]; then
